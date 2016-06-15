@@ -1,0 +1,8 @@
+*.aux
+*.pdf
+*.dvi
+*.log
+*.gz
+._ECV.tex
+
+._Foto.jpg
