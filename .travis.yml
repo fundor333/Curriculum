@@ -4,7 +4,7 @@ before_install:
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full python-pygments gnuplot
 script:
 - mkdir _build
-- latex ECV.tex
+- pdflatex ECV.tex
 deploy:
   provider: releases
   api_key:
